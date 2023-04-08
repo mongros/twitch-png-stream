@@ -28,8 +28,5 @@ Run the 'start.bat'
 
 Logs will be outputed by ffmpeg executable, you'll see 'dup=x' increasing which is totally ok since we're uploading the same image in loop.
 
-Enjoy, you'll only have to launch
+Enjoy, you'll only have to launch the 'start.bat' on futur needs
 
-
-# Remarks
-ffmpeg is embedded in this project to avoid compatibilies issues in accordance of LGPL, if you want to tweak or make sure to get the latest version, check https://ffmpeg.org/
