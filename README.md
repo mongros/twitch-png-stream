@@ -9,22 +9,26 @@ Streams a png image to twitch with minimal system impact
 ## HOW-TO USE:
 
 ## Step 1 
-Download FFMPEG as per requirements, copy ffmpeg into this folder
+Click on the green 'Code' button and select 'Download Zip' 
+Extract it on your favorite destination
 
 ## Step 2
+Download FFMPEG as per requirements, copy ffmpeg into the previous destination
+
+## Step 3
 Edit the 'start.bat' file and edit live_xxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx with your **own stream key**
 
 **Warning :** keep no spaces between the equal sign and the key value
   
-## Step 3
+## Step 4
 Choose a 1920x1080 image to broadcast, replace the '1920_1080.png' file with it
 
-## Step 4
+## Step 5
 Run the 'start.bat'
 
 Logs will be outputed by ffmpeg executable, you'll see 'dup=x' increasing which is totally ok since we're uploading the same image in loop.
 
-Enjoy
+Enjoy, you'll only have to launch
 
 
 # Remarks
